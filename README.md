@@ -1,6 +1,6 @@
 # multi1: Using multiple AI providers to create o1-like reasoning chains
 
-WARNING: This repository approach has been superseeded by the [CoT Experiment](https://github.com/tcsenpai/llms-experiments?tab=readme-ov-file#artificial-cot) in [LLM Experiments](https://github.com/tcsenpai/llms-experiments)
+***WARNING: This repository approach has been superseeded by the [CoT Experiment](https://github.com/tcsenpai/llms-experiments?tab=readme-ov-file#artificial-cot) in [LLM Experiments](https://github.com/tcsenpai/llms-experiments)***
 
 ## Table of Contents
 - [multi1: Using multiple AI providers to create o1-like reasoning chains](#multi1-using-multiple-ai-providers-to-create-o1-like-reasoning-chains)
