@@ -17,9 +17,11 @@ class BaseHandler(ABC):
         # Attempt to make an API call with retry logic
         for attempt in range(self.max_attempts):
             try:
+                print(f"\n[api_handler: make_api_call()] Attempt {attempt+1} at getting response from _make_request() method.")
                 response = self._make_request(messages, max_tokens)
                 return self._process_response(response, is_final_answer)
             except Exception as e:
+                print("\n[api_handler: make_api_call()] API CALL ERROR")
                 if attempt == self.max_attempts - 1:
                     return self._error_response(str(e), is_final_answer)
                 time.sleep(self.retry_delay)
