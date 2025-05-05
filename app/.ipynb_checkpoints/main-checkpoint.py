@@ -17,13 +17,13 @@ def load_css():
 
 def setup_page():
     # Configure the Streamlit page
-    st.set_page_config(page_title="o1lama-research: LLM reasoning frontend", page_icon="🧠", layout="wide")
+    st.set_page_config(page_title="multi1-research: LLM reasoning frontend", page_icon="🧠", layout="wide")
     load_css()
     
     # Display the main title
     st.markdown("""
     <h1 class="main-title">
-        🧠 o1lama-research: LLM reasoning frontend
+        🧠 multi1-research: LLM reasoning frontend
     </h1>
     """, unsafe_allow_html=True)
     
